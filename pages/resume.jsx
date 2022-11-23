@@ -6,7 +6,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>ASIM | Resume</title>
         <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
@@ -17,17 +17,17 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>ASIM AHMED</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/mr-asim'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/Media3rtStudio'
               target='_blank'
               rel='noreferrer'
             >
@@ -38,26 +38,18 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
-              <span className='px-1'>|</span> Complex Problem Solving
+              Web developer <span className='px-1'>|</span> Designer {' '}
+              <span className='px-1'>|</span> Problem Solving
             </p>
           </div>
           <div className='block sm:hidden'>
-            <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
-            <p>Complex Problem Solving</p>
+            <p>Web developer</p>
+            <p className='py-2'>Designer</p>
+            <p> Problem Solving</p>
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+          I am a self-taught designer with experience in creating digital interfaces, websites, and social media design I also have the ability to bring those concepts to life through creative front-end development".
         </p>
 
         {/* Skills */}
@@ -71,17 +63,16 @@ const resume = () => {
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span>SEO
+            <span className='px-2'>|</span>Google Ad's
+            <span className='px-2'>|</span>WordPress
+            <span className='px-2'>|</span>Social media Manager
+            <span className='px-2'>|</span>Adobe Photoshop
+            <span className='px-2'>|</span>Illustrator, XD , figma
           </p>
           <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
+            <span className='font-bold'></span>
+            <span className='px-2'>|</span>
           </p>
         </div>
 
@@ -92,23 +83,20 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            INFINITE TECH
+            November Furniture L.L.C
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Sharjah, UAE
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
+          <p className='py-1 italic'>Web developer & Social media manager (2021 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+              Developed and manage Website, Using WordPress +Html 5 +CSS.
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+              Manage digital sales streaming accounts to improve brand positioning and growth.
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
+              Managing social media accounts and advertising campaigns. Instagram + Facebook.
             </li>
             <li>
               Platform migration managing DNS servers as well as MX records and
@@ -122,21 +110,24 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
+              Woi Studio
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>KHARTOUM, SD
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
+          <p className='py-1 italic'>Web Developer & Design (2019 - 2020)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
+              Build an ecommerce web app to sell products online. Increase company sales by 58%.
             </li>
             <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
+              Designed and developed user-friendly website, including optimized check-out page that increased user.
+clicks,       and subsequently customer purchases by 20%.
+            </li>
+            <li>
+              Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%.
+            </li>
+            <li>
+              Excelled in user experience and user interfaces.
             </li>
           </ul>
         </div>
@@ -149,36 +140,25 @@ const resume = () => {
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
+            <span className='font-bold'>Freelance</span>
+            <span className='px-2'>|</span>
           </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
+          <p className='py-1 italic'></p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+              Social media post design.
             </li>
             <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
+              Video editing with after effects & premiere.
             </li>
             <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
+              Photographer.
             </li>
             <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
+              Ui/Ux designer.
             </li>
             <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+              Brand identity designer.
             </li>
           </ul>
         </div>

@@ -1,52 +1,51 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import {AiFillLinkedin, AiFillTwitterCircle, AiFillFacebook, AiFillBehanceCircle} from "react-icons/ai";
+
 
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
+          <p className='uppercase text-sm tracking-widest text-gray-500'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
-          <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'> Clint</span>
+          <h1 className='py-4 text-black'>
+            Hi, I&#39;m <span className='text-red-600'>ᴍr.ᴀ</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I’m focused on building responsive front-end web applications
-            integrating back-end technologies.
+          <h1 className='py-2 text-black'> Developer and designer.</h1>
+          <p className='py-4 text-gray-500 sm:max-w-[70%] m-auto'>
+          We turn ideas into reality.
+          We are MA STUDIO
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/mr-asim/'
               target='_blank'
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaLinkedinIn />
+                <AiFillLinkedin />
               </div>
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://twitter.com/Media3rtStudio'
               target='_blank'
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaGithub />
+                <AiFillTwitterCircle />
               </div>
             </a>
-            <Link href='/#contact'>
+            <Link href='https://www.facebook.com/Media3rtStudio'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail />
+                <AiFillFacebook />
               </div>
             </Link>
-            <Link href='/resume'>
+            <Link href='https://www.behance.net/Media3rtStudio'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <BsFillPersonLinesFill />
+                <AiFillBehanceCircle />
               </div>
             </Link>
           </div>

@@ -10,8 +10,8 @@ import NavLogo from '../public/assets/navLogo.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [navBg, setNavBg] = useState('#000000');
+  const [linkColor, setLinkColor] = useState('#ffffff');
   // const [position, setPosition] = useState('fixed')
   // const router = useRouter();
 
@@ -25,8 +25,8 @@ const Navbar = () => {
   //     setNavBg('transparent');
   //     setLinkColor('#ecf0f3');
   //   } else {
-  //     setNavBg('#ecf0f3');
-  //     setLinkColor('#1f2937');
+  //     setNavBg('#000000');
+  //     setLinkColor('#ffffff');
   //   }
   // }, [router]);
 
@@ -54,13 +54,13 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+      <div className='flex justify-between items-center w-full h-full px-5 2xl:px-16'>
         <Link href='/'>
           <a>
             <Image
               src={NavLogo}
               alt='/'
-              width='125'
+              width='50'
               height='50'
               className='cursor-pointer'
             />
@@ -109,7 +109,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#919191] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -119,8 +119,8 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='87'
-                    height='35'
+                    width='40'
+                    height='40'
                     alt='/'
                   />
                 </a>
@@ -171,13 +171,13 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className='pt-40'>
-              <p className='uppercase tracking-widest text-[#5651e5]'>
+            <div className='pt-5'>
+              <p className='uppercase tracking-widest text-red-600'>
                 Let&#39;s Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/mr-asim/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -186,7 +186,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/Media3rtStudio'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -208,6 +208,7 @@ const Navbar = () => {
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <BsFillPersonLinesFill />
+                    
                   </div>
                 </Link>
               </div>
