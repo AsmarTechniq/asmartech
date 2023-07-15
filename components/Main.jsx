@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import {AiFillLinkedin, AiFillTwitterCircle, AiFillFacebook, AiFillBehanceCircle} from "react-icons/ai";
+import { AiFillLinkedin, AiFillTwitterCircle, AiFillFacebook, AiFillBehanceCircle } from "react-icons/ai";
 
 
 const Main = () => {
@@ -16,8 +16,9 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-black'> Developer and designer.</h1>
           <p className='py-4 text-gray-500 sm:max-w-[70%] m-auto'>
-          We turn ideas into reality.
-          We are MA STUDIO
+            We turn ideas into reality. <br>
+            </br>
+            Let's build the brand that will represent you in the market... !
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
@@ -30,7 +31,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://twitter.com/Media3rtStudio'
+              href='https://twitter.com/manja_studio'
               target='_blank'
               rel='noreferrer'
             >
@@ -38,12 +39,12 @@ const Main = () => {
                 <AiFillTwitterCircle />
               </div>
             </a>
-            <Link href='https://www.facebook.com/Media3rtStudio'>
+            <Link href='https://www.facebook.com/manja.io'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillFacebook />
               </div>
             </Link>
-            <Link href='https://www.behance.net/Media3rtStudio'>
+            <Link href='https://www.behance.net/manja'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillBehanceCircle />
               </div>

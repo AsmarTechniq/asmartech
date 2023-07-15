@@ -27,7 +27,7 @@ const resume = () => {
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/Media3rtStudio'
+              href='https://github.com/mr3sim'
               target='_blank'
               rel='noreferrer'
             >
@@ -83,7 +83,7 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            November Furniture L.L.C
+              November Furniture L.L.C
             </span>
             <span className='px-2'>|</span>Sharjah, UAE
           </p>
@@ -121,7 +121,7 @@ const resume = () => {
             </li>
             <li>
               Designed and developed user-friendly website, including optimized check-out page that increased user.
-clicks,       and subsequently customer purchases by 20%.
+              clicks,       and subsequently customer purchases by 20%.
             </li>
             <li>
               Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%.
@@ -136,7 +136,7 @@ clicks,       and subsequently customer purchases by 20%.
         <h5 className='text-center underline text-[18px] py-4'>
           Other Professional Experience
         </h5>
-      
+
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
