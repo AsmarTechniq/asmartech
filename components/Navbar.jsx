@@ -186,7 +186,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/Media3rtStudio'
+                  href='https://github.com/mr3sim'
                   target='_blank'
                   rel='noreferrer'
                 >
