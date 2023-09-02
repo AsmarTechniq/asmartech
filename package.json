@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/mr3sim/portfolio-My3rt.git",
-  "name": "portfolio-mr.a",
+  "homepage": "/",
+  "name": "mr.a",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,9 +15,9 @@
   "dependencies": {
     "firebase": "^9.14.0",
     "gh-pages": "^4.0.0",
-    "next": "12.1.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.3.1"
   },
   "devDependencies": {
