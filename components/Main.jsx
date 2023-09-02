@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillLinkedin, AiFillTwitterCircle, AiFillFacebook, AiFillBehanceCircle } from "react-icons/ai";
+import { AiFillLinkedin, AiFillTwitterCircle, AiFillInstagram, AiFillBehanceCircle } from "react-icons/ai";
 
 
 const Main = () => {
@@ -31,7 +31,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://twitter.com/mra_studio'
+              href='https://twitter.com/a_io95'
               target='_blank'
               rel='noreferrer'
             >
@@ -41,10 +41,10 @@ const Main = () => {
             </a>
             <Link href='https://www.instagram.com/mr.a.io/'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiFillFacebook />
+                <AiFillInstagram />
               </div>
             </Link>
-            <Link href='https://www.behance.net/mra_io'>
+            <Link href='https://www.behance.net/a_io95'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillBehanceCircle />
               </div>
