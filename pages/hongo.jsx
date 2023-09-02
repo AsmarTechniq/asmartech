@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import React from 'react';
 import cryptoImg from '../public/assets/projects/crypto.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
@@ -27,11 +27,11 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Hongo’ is a multipurpose WordPress Theme catering for long-scrolling product Landing Pages.
-          Features include a unique intro vertical slideshow, a sticky header navigation that smooth scrolling to sections, a WooCommerce-integrated product range.
+            Hongo’ is a multipurpose WordPress Theme catering for long-scrolling product Landing Pages.
+            Features include a unique intro vertical slideshow, a sticky header navigation that smooth scrolling to sections, a WooCommerce-integrated product range.
           </p>
           <a
-            href='https://github.com/Media3rtStudio'
+            href='https://github.com/mr3sim'
             target='_blank'
             rel='noreferrer'
           >
@@ -71,7 +71,7 @@ const crypto = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
+        <Link href='/#projects' legacyBehavior>
           <p className='underline cursor-pointer'>Back</p>
         </Link>
       </div>

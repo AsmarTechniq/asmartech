@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import React from 'react';
 import twitchImg from '../public/assets/projects/twitch.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
@@ -40,7 +40,7 @@ const twitch = () => {
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </a>
           <a
-            href='https://github.com/Media3rtStudio/ma-studio.git'
+            href='https://github.com/mr3sim'
             target='_blank'
             rel='noreferrer'
           >
@@ -73,7 +73,7 @@ const twitch = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
+        <Link href='/#projects' legacyBehavior>
           <p className='underline cursor-pointer'>Back</p>
         </Link>
       </div>

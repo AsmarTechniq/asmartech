@@ -39,12 +39,12 @@ const Main = () => {
                 <AiFillTwitterCircle />
               </div>
             </a>
-            <Link href='https://www.instagram.com/mr.a.io/'>
+            <Link href='https://www.instagram.com/mr.a.io/' legacyBehavior>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillInstagram />
               </div>
             </Link>
-            <Link href='https://www.behance.net/a_io95'>
+            <Link href='https://www.behance.net/a_io95' legacyBehavior>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillBehanceCircle />
               </div>

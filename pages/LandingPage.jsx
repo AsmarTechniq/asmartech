@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import React from 'react';
 import netflixImg from '../public/assets/projects/netflix.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
@@ -27,10 +27,10 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          The design really is quality for a freebie and features an intro lead capture field, screenshot preview area, product/service overview.
+            The design really is quality for a freebie and features an intro lead capture field, screenshot preview area, product/service overview.
           </p>
           <a
-            href='https://github.com/Media3rtStudio/ma-studio.git'
+            href='https://github.com/mr3sim'
             target='_blank'
             rel='noreferrer'
           >
@@ -66,7 +66,7 @@ const netflix = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
+        <Link href='/#projects' legacyBehavior>
           <p className='underline cursor-pointer'>Back</p>
         </Link>
       </div>

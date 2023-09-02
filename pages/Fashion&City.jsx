@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import React from 'react';
 import propertyImg from '../public/assets/projects/property.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
@@ -30,7 +30,7 @@ const property = () => {
             This Ui/Ux Webpage I was built using Figma ,Go from idea to product faster with Figma's modern design and prototyping tool.
           </p>
           <a
-            href='https://github.com/Media3rtStudio/ma-studio.git'
+            href='#'
             target='_blank'
             rel='noreferrer'
           >
@@ -69,7 +69,7 @@ const property = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
+        <Link href='/#projects' legacyBehavior>
           <p className='underline cursor-pointer'>Back</p>
         </Link>
       </div>
