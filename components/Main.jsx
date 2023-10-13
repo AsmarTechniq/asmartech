@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillLinkedin, AiFillTwitterCircle, AiFillInstagram, AiFillBehanceCircle } from "react-icons/ai";
+import { AiFillLinkedin, AiFillDribbbleCircle, AiFillInstagram, AiFillBehanceCircle } from "react-icons/ai";
 
 
 const Main = () => {
@@ -31,12 +31,12 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://twitter.com/a_io95'
+              href='https://dribbble.com/a_io95'
               target='_blank'
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiFillTwitterCircle />
+                <AiFillDribbbleCircle />
               </div>
             </a>
             <Link href='https://www.instagram.com/_a.io95/' legacyBehavior>
