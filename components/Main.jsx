@@ -31,7 +31,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://dribbble.com/a_io95'
+              href='https://dribbble.com/mr-amiri'
               target='_blank'
               rel='noreferrer'
             >
@@ -44,7 +44,7 @@ const Main = () => {
                 <AiFillInstagram />
               </div>
             </Link>
-            <Link href='https://www.behance.net/a_io95' legacyBehavior>
+            <Link href='https://www.behance.net/mr-amiri' legacyBehavior>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillBehanceCircle />
               </div>
