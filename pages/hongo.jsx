@@ -31,7 +31,7 @@ const crypto = () => {
             Features include a unique intro vertical slideshow, a sticky header navigation that smooth scrolling to sections, a WooCommerce-integrated product range.
           </p>
           <a
-            href='https://github.com/mr3sim'
+            href='https://github.com/AsmarTech'
             target='_blank'
             rel='noreferrer'
           >

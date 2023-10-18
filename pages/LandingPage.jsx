@@ -30,7 +30,7 @@ const netflix = () => {
             The design really is quality for a freebie and features an intro lead capture field, screenshot preview area, product/service overview.
           </p>
           <a
-            href='https://github.com/mr3sim'
+            href='https://github.com/AsmarTech'
             target='_blank'
             rel='noreferrer'
           >
