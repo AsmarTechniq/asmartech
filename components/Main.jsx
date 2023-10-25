@@ -39,7 +39,7 @@ const Main = () => {
                 <AiFillDribbbleCircle />
               </div>
             </a>
-            <Link href='https://www.instagram.com/mr.a.io/' legacyBehavior>
+            <Link href='https://www.instagram.com/asmartech/' legacyBehavior>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillInstagram />
               </div>
