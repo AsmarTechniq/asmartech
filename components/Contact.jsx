@@ -47,7 +47,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/AsmarTech'
+                    href='https://github.com/AsmarTechniq'
                     target='_blank'
                     rel='noreferrer'
                   >

@@ -31,7 +31,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://dribbble.com/AsmarTech'
+              href='https://dribbble.com/AsmarTechniq'
               target='_blank'
               rel='noreferrer'
             >
@@ -39,12 +39,12 @@ const Main = () => {
                 <AiFillDribbbleCircle />
               </div>
             </a>
-            <Link href='https://www.instagram.com/asmartech/' legacyBehavior>
+            <Link href='https://www.instagram.com/asmarTechniq/' legacyBehavior>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillInstagram />
               </div>
             </Link>
-            <Link href='https://www.behance.net/AsmarTech' legacyBehavior>
+            <Link href='https://www.behance.net/AsmarTechniq' legacyBehavior>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillBehanceCircle />
               </div>
