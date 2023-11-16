@@ -26,7 +26,7 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillLinkedin />
               </div>
             </a>
@@ -35,17 +35,17 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillDribbbleCircle />
               </div>
             </a>
             <Link href='https://www.instagram.com/asmarTechniq/' legacyBehavior>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillInstagram />
               </div>
             </Link>
             <Link href='https://www.behance.net/AsmarTechniq' legacyBehavior>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiFillBehanceCircle />
               </div>
             </Link>

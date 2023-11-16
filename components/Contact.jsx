@@ -17,7 +17,7 @@ const Contact = () => {
         <h2 className='py-4'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
-          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
@@ -42,7 +42,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -51,17 +51,17 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaGithub />
                     </div>
                   </a>
 
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
                   <Link href='/resume'>
 
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <BsFillPersonLinesFill />
                     </div>
 
@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
                 action='https://getform.io/f/6f3a52e6-5471-49f4-a62f-39d5faa2c69c'
@@ -83,7 +83,7 @@ const Contact = () => {
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-gray-950 dark:border-gray-600 '
                       type='text'
                       name='name'
                     />
@@ -93,7 +93,7 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-gray-950 dark:border-gray-600'
                       type='text'
                       name='phone'
                     />
@@ -102,7 +102,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Email</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300'
+                    className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-gray-950 dark:border-gray-600'
                     type='email'
                     name='email'
                   />
@@ -110,7 +110,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Subject</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300'
+                    className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-gray-950 dark:border-gray-600'
                     type='text'
                     name='subject'
                   />
@@ -118,7 +118,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Message</label>
                   <textarea
-                    className='border-2 rounded-lg p-3 border-gray-300'
+                    className='border-2 rounded-lg p-3 border-gray-300 dark:text-gray-950 dark:border-gray-600'
                     rows='10'
                     name='message'
                   ></textarea>
@@ -133,7 +133,7 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
 
-            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <HiOutlineChevronDoubleUp
                 className='text-red-600'
                 size={30}
