@@ -12,7 +12,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#ffffff] text-[#000000] tracking-wide
+    @apply bg-gray-50 text-gray-950 tracking-wide dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -26,12 +26,12 @@ html {
   h2 {
     @apply text-3xl sm:text-4xl
   }
-  
+
   li {
     @apply cursor-pointer
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#e55151] to-[#1a1a1a] text-white
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-[#000000] text-white
   }
 }

@@ -26,7 +26,7 @@ const Projects = () => {
             title='Hongo'
             backgroundImg={cryptoImg}
             projectUrl='/hongo'
-            tech='Wordpress'
+            tech='WordPress'
 
           />
           <ProjectItem
