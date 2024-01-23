@@ -49,7 +49,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-          I am a self-taught designer with experience in creating digital interfaces, websites, and social media design I also have the ability to bring those concepts to life through creative front-end development".
+          I am a self-taught designer with experience in creating digital interfaces, websites, and social media design I also have the ability to bring those concepts to life through creative front-end development.
         </p>
 
         {/* Skills */}
@@ -90,17 +90,17 @@ const resume = () => {
           <p className='py-1 italic'>Web developer & Social media manager (2021 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Developed and manage Website, Using WordPress +Html 5 +CSS.
+              Build an ecommerce web app to sell products online. Increase company sales by 58%.
             </li>
             <li>
-              Manage digital sales streaming accounts to improve brand positioning and growth.
+              Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%.
             </li>
             <li>
-              Managing social media accounts and advertising campaigns. Instagram + Facebook.
+              Excelled in user experience and user interfaces.
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+              Designed and developed user-friendly website, including optimized check-out page that increased user
+              clicks, and subsequently customer purchases by 20%.
             </li>
           </ul>
         </div>
@@ -114,20 +114,20 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>KHARTOUM, SD
           </p>
-          <p className='py-1 italic'>Web Developer & Design (2019 - 2020)</p>
+          <p className='py-1 italic'>Front-End Developer Intern (2019 - 2020)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Build an ecommerce web app to sell products online. Increase company sales by 58%.
+              Translated designs and wireframes into high-quality code using HTML, CSS , and JavaScript.
             </li>
             <li>
-              Designed and developed user-friendly website, including optimized check-out page that increased user.
-              clicks,       and subsequently customer purchases by 20%.
+              Worked closely with developers, designers, copywriters, and other cross-functional teams (CRO Video, Marketing , etc..) to
+              drive innovation and maximize conversions by 40%.
             </li>
             <li>
-              Revamped web application security applications, minimizing hacker attacks from 2.3% to 0.02%.
+              Provided input to leaders 3 times a year about the future development of new features.
             </li>
             <li>
-              Excelled in user experience and user interfaces.
+              Ensured the technical feasibility of UI/UX designs.
             </li>
           </ul>
         </div>
