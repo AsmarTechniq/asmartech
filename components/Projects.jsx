@@ -6,6 +6,42 @@ import cryptoImg from '../public/assets/projects/crypto.jpg'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
+import ProjectTag from './ProjectTag';
+
+// const projectData = [
+//   {
+//     id: 1,
+//     title: 'Fashion & City',
+//     backgroundImg: { propertyImg },
+//     tags: ['All', 'Web'],
+//     projectUrl: '/Fashion&City',
+//     tech: 'Ui/Ux'
+//   },
+//   {
+//     id: 2,
+//     title: 'Hongo Shop',
+//     backgroundImg: { cryptoImg },
+//     tags: ['All', 'Web'],
+//     projectUrl: '/hongo',
+//     tech: 'Hero Section'
+//   },
+//   {
+//     id: 3,
+//     title: 'Landing Page',
+//     backgroundImg: { netflixImg },
+//     tags: ['All', 'Web'],
+//     projectUrl: '/LandingPage',
+//     tech: 'HTML'
+//   },
+//   {
+//     id: 4,
+//     title: 'Novemberfurniture',
+//     backgroundImg: { twitchImg },
+//     tags: ['All', 'Web'],
+//     projectUrl: '/Novemberfurniture',
+//     tech: 'Wordpress'
+//   },
+// ];
 
 const Projects = () => {
   return (
@@ -15,7 +51,21 @@ const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
-        <div className='grid md:grid-cols-2 gap-8'>
+        {/* <div className='flex flex-row justify-center items-center gap-2 py-6'>
+          <button className='rounded-full border-2 border-red-500 px-6 py-3 text-xl cursor-pointer'>All</button>
+          <button className='rounded-full border-2 border-slate-600 hover:border-white px-6 py-3 text-xl cursor-pointer'>Web</button>
+        </div> */}
+        <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
+          {/* {projectData.map((project) =>
+          (<ProjectItem
+            key={project.id}
+            title={project.title}
+            backgroundImg={project.backgroundImg}
+            projectUrl={project.projectUrl}
+            tags={project}
+            tech={project.tech}
+          />
+          ))} */}
           <ProjectItem
             title='Fashion & City'
             backgroundImg={propertyImg}
@@ -23,10 +73,10 @@ const Projects = () => {
             tech='Ui/Ux'
           />
           <ProjectItem
-            title='Hongo'
+            title='Hongo Shop'
             backgroundImg={cryptoImg}
             projectUrl='/hongo'
-            tech='WordPress'
+            tech='Hero Section'
 
           />
           <ProjectItem

@@ -27,7 +27,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>ASIM AHMED</h2>
+                <h2 className='py-2'>AsmarTechniq</h2>
                 <p>Front-End Developer</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
@@ -56,9 +56,15 @@ const Contact = () => {
                     </div>
                   </a>
 
-                  <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
+                  <a
+                    href='mailto:asmartechniq@gmail.com'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <AiOutlineMail />
+                    </div>
+                  </a>
                   <Link href='/resume'>
 
                     <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
