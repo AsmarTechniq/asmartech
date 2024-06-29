@@ -5,7 +5,9 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/assets/navLogo.png';
+import UserImg from '../public/assets/user.png'
+import { signIn, signOut, useSession, getProviders } from 'next-auth/react';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -14,6 +16,20 @@ const Navbar = () => {
   const [linkColor, setLinkColor] = useState('#ffffff');
   // const [position, setPosition] = useState('fixed')
   const router = useRouter();
+
+  const isUserLoggedIn = false;
+
+  // const [providers, setProviders] = useState(null);
+
+  // useEffect(() => {
+  //   const setProviders = async () => {
+  //     const response = await getProviders();
+
+  //     setProviders(response);
+  //   }
+
+  //   setProviders();
+  // }, [])
 
   useEffect(() => {
     if (
@@ -53,8 +69,16 @@ const Navbar = () => {
           ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
           : 'fixed w-full h-20 z-[100]'
       }>
-      <div className='flex flex-wrap justify-between items-center mx-auto py-7 px-7 2xl:px-16'>
-        <Link href='/' className='text-white font-semibold'>AsmarTechniq</Link>
+      <div className='flex flex-row justify-between items-center mx-auto py-7 px-7 2xl:px-16 sm:px-6'>
+        <Link href='/' className='text-white font-semibold flex gap-4'>
+          <Image src={NavLogo}
+            alt='Logo'
+            className='relative'
+            width={30}
+            height={30}
+          />
+          <p className='logo_text'>AsmarTechniq</p>
+        </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>

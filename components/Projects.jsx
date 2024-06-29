@@ -6,6 +6,7 @@ import cryptoImg from '../public/assets/projects/crypto.jpg';
 import netflixImg from '../public/assets/projects/netflix.jpg';
 import twitchImg from '../public/assets/projects/twitch.jpg';
 import aqmishaImg from '../public/assets/projects/aqmisha.jpg';
+import murwajImg from '../public/assets/projects/murwaj.jpg';
 import ProjectItem from './ProjectItem';
 import ProjectTag from './ProjectTag';
 
@@ -99,6 +100,13 @@ const Projects = () => {
             backgroundImg={aqmishaImg}
             projectUrl='/Alaqmisha'
             tech='Ui/Ux'
+
+          />
+          <ProjectItem
+            title='Murwaj'
+            backgroundImg={murwajImg}
+            projectUrl='/Murwaj'
+            tech='JavaScript/PHP'
 
           />
         </div>

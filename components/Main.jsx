@@ -47,7 +47,7 @@ const Main = () => {
                 Hire Me
               </Link>
               <a
-                className="border border-red-600 dark:border-white dark:bg-transparent px-1 inline-block py-1 w-full sm:w-fit rounded-full mt-3"
+                className="border border-red-600 hover:bg-gray-400 dark:border-white dark:bg-transparent px-1 inline-block py-1 w-full sm:w-fit rounded-full mt-3"
                 href='/CV.pdf' download
               >
                 <span className="rounded-full px-7 py-2 flex items-center justify-center gap-2">
