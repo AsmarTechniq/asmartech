@@ -71,13 +71,13 @@ const Navbar = () => {
       }>
       <div className='flex flex-row justify-between items-center mx-auto py-7 px-7 2xl:px-16 sm:px-6'>
         <Link href='/' className='text-white font-semibold flex gap-4'>
-          <Image src={NavLogo}
+          {/* <Image src={NavLogo}
             alt='Logo'
             className='relative'
             width={30}
             height={30}
-          />
-          <p className='logo_text'>AsmarTechniq</p>
+          /> */}
+          <p className='text-sm uppercase font-semibold'>Asmar Techniq</p>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
