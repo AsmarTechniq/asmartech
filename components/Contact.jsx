@@ -56,15 +56,18 @@ const Contact = () => {
                     </div>
                   </a>
 
-                  <a
-                    href='mailto:asmartechniq@gmail.com'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <AiOutlineMail />
-                    </div>
-                  </a>
+                  <>
+                    <Link
+                      href="/invalid" as="mailto:asmartechniq@gmail.com"
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <AiOutlineMail />
+                      </div>
+                    </Link>
+                  </>
+
                   <Link href='/resume'>
 
                     <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>

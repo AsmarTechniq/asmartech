@@ -30,7 +30,7 @@ const murwaj = () => {
                         Classified Platform to Buy and sell everything from used cars to mobile phones and computers.
                     </p>
                     <a
-                        href='https://murwaj.com/'
+                        href='https://www.murwaj.com/'
                         target='_blank'
                         rel='noreferrer'
                     >
